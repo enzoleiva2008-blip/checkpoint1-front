@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkpoint 1 - Front-end</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Checkpoint 1</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle">&#9776;</button>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Bem-vindo ao Checkpoint 1</h1>
+      <p>Projeto front-end desenvolvido com HTML, CSS e JavaScript.</p>
+      <a href="#sobre" class="btn">Saiba Mais</a>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <h2>Sobre o Projeto</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>HTML5</h3>
+          <p>Estrutura semântica e acessível.</p>
+        </div>
+        <div class="card">
+          <h3>CSS3</h3>
+          <p>Estilização moderna e responsiva.</p>
+        </div>
+        <div class="card">
+          <h3>JavaScript</h3>
+          <p>Interatividade e dinamismo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <div class="container">
+      <h2>Contato</h2>
+      <form id="contatoForm">
+        <input type="text" id="nome" placeholder="Seu nome" required>
+        <input type="email" id="email" placeholder="Seu e-mail" required>
+        <textarea id="mensagem" placeholder="Sua mensagem" rows="5" required></textarea>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Checkpoint 1 - Front-end. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
