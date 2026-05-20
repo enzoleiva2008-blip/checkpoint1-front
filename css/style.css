@@ -272,6 +272,15 @@ main section {
   background-color: var(--cor-secundaria);
 }
 
+/* Destinos - titulo da secao */
+#destinos h2,
+#pacotes h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--cor-primaria);
+  margin-bottom: 2rem;
+}
+
 /* Footer */
 footer {
   background-color: var(--cor-footer);
