@@ -176,7 +176,19 @@ footer {
   background: #1a1a2e;
   color: #aaa;
   text-align: center;
-  padding: 1.5rem;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+footer a {
+  color: #e94560;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 /* Cards de projetos com efeito hover aprimorado */
