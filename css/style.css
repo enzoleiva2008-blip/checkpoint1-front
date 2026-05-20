@@ -307,6 +307,18 @@ img {
   color: #555;
 }
 
+/* Formulario - estilos extras */
+.campo input::placeholder,
+.campo textarea::placeholder {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.campo input:hover,
+.campo textarea:hover {
+  border-color: var(--cor-secundaria);
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
   header {
