@@ -290,6 +290,23 @@ footer {
   font-size: 0.9rem;
 }
 
+/* Imagens responsivas */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Pacotes - lista de itens */
+#pacotes .card ul {
+  padding-left: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+
+#pacotes .card ul li {
+  padding: 0.2rem 0;
+  color: #555;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
   header {
