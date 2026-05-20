@@ -352,6 +352,25 @@ img {
   }
 }
 
+@media (max-width: 600px) {
+  header {
+    padding: 0.8rem 1rem;
+  }
+
+  .logo {
+    font-size: 1.4rem;
+  }
+
+  nav ul {
+    gap: 0.3rem;
+  }
+
+  nav ul li a {
+    font-size: 0.9rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
+
 @media (max-width: 480px) {
   .hero-conteudo h1 {
     font-size: 1.5rem;
