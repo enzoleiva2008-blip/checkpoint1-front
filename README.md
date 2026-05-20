@@ -1,8 +1,11 @@
 # TripWay
 
 ## Integrantes
-- enzoleiva2008-blip
-- KauaznX
+- Enzo Leiva Varrichio - RM568877
+- Kaua Augusto Fiuza - RM572369
+
+## Turma
+1TDSPX
 
 ## Descrição
 Projeto desenvolvido para a disciplina de Front-End, com o objetivo de criar um site multipágina para uma empresa fictícia de viagens.
