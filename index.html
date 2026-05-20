@@ -3,80 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Checkpoint 1 - Front-end</title>
+  <title>TripWay - Guia de Viagens</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
   <header>
-    <h1>Checkpoint 1 - Front-end</h1>
+    <div class="logo">TripWay</div>
     <nav>
-      <a href="#home">Home</a> |
-      <a href="#sobre">Sobre</a> |
-      <a href="#projetos">Projetos</a> |
-      <a href="#contato">Contato</a>
+      <ul>
+        <li><a href="./index.html" class="ativo">Home</a></li>
+        <li><a href="./pages/destinos.html">Destinos</a></li>
+        <li><a href="./pages/pacotes.html">Pacotes</a></li>
+        <li><a href="./pages/contato.html">Contato</a></li>
+      </ul>
     </nav>
-    <hr>
   </header>
 
-  <section id="home">
-    <h2>Bem-vindo ao Checkpoint 1</h2>
-    <p>Projeto front-end desenvolvido com HTML puro.</p>
-    <a href="#sobre">Saiba Mais</a>
-  </section>
+  <main>
 
-  <hr>
+    <section id="hero">
+      <div class="hero-conteudo">
+        <h1>Descubra o mundo com a TripWay</h1>
+        <p>Seu guia de viagens completo. Explore destinos incríveis, escolha pacotes sob medida e viva experiências inesquecíveis.</p>
+        <a href="./pages/destinos.html" class="btn">Conhecer Destinos</a>
+      </div>
+    </section>
 
-  <section id="sobre">
-    <h2>Sobre o Projeto</h2>
-    <ul>
-      <li><strong>HTML5</strong> - Estrutura semântica e acessível.</li>
-      <li><strong>CSS3</strong> - Estilização moderna e responsiva.</li>
-      <li><strong>JavaScript</strong> - Interatividade e dinamismo.</li>
-    </ul>
-  </section>
+    <section id="sobre">
+      <h2>Quem somos</h2>
+      <p>A TripWay é uma empresa fictícia de turismo criada para oferecer as melhores experiências de viagem. Trabalhamos com destinos nacionais e internacionais, pacotes personalizados e atendimento especializado.</p>
+      <div class="cards-container">
+        <div class="card">
+          <h3>Destinos Exclusivos</h3>
+          <p>Selecionamos os melhores destinos ao redor do mundo para você.</p>
+        </div>
+        <div class="card">
+          <h3>Pacotes Personalizados</h3>
+          <p>Monte sua viagem do jeito que você quer, com total flexibilidade.</p>
+        </div>
+        <div class="card">
+          <h3>Suporte 24h</h3>
+          <p>Nossa equipe está disponível a qualquer hora para te ajudar.</p>
+        </div>
+      </div>
+    </section>
 
-  <hr>
-
-  <section id="projetos">
-    <h2>Projetos</h2>
-    <ul>
-      <li>
-        <strong>Projeto Alpha</strong>
-        <p>Aplicação web responsiva com HTML e CSS.</p>
-      </li>
-      <li>
-        <strong>Projeto Beta</strong>
-        <p>Interface dinâmica com JavaScript puro.</p>
-      </li>
-      <li>
-        <strong>Projeto Gamma</strong>
-        <p>Formulário interativo com validação.</p>
-      </li>
-    </ul>
-  </section>
-
-  <hr>
-
-  <section id="contato">
-    <h2>Contato</h2>
-    <form>
-      <label for="nome">Nome:</label><br>
-      <input type="text" id="nome" name="nome" required><br><br>
-
-      <label for="email">E-mail:</label><br>
-      <input type="email" id="email" name="email" required><br><br>
-
-      <label for="mensagem">Mensagem:</label><br>
-      <textarea id="mensagem" name="mensagem" rows="5" cols="40" required></textarea><br><br>
-
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
-
-  <hr>
+  </main>
 
   <footer>
-    <p>&copy; 2026 Checkpoint 1 - Front-end. Todos os direitos reservados.</p>
+    <p>&copy; 2026 TripWay - Guia de Viagens. Todos os direitos reservados.</p>
   </footer>
 
 </body>
